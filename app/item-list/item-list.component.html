@@ -1,0 +1,13 @@
+<app-search id="search-note-panel" class="search" (searchTextChanged)="onSearchTextChanged($event)"></app-search>
+
+<div class="buttons">
+    
+  <button mat-flat-button color="primary" class="one" (click)="reset(all)">All</button>
+  <button mat-flat-button color="primary" class="two" (click)="displaysorted(cookies)">Cookies</button>
+  <button mat-flat-button color="primary" class="three" (click)="displaysorted(cakes)">Cakes</button>
+  <button mat-flat-button color="primary" class="four" (click)="displaysorted(brownies)">Brownies</button> 
+  <button mat-flat-button color="primary" class="five" (click)="displaysorted(muffins)">Muffins</button>
+</div>
+<div class="container-fluid">
+<app-item-card *ngFor="let item of items" [item]="item"></app-item-card>
+</div>

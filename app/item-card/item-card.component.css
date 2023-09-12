@@ -1,0 +1,22 @@
+.item-card {
+    width: 22%;
+    margin-left: 30px ;
+    margin-bottom: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-between;
+}
+.image{
+    height:20px;
+}
+.card-image{
+    height: 62%;
+    width:100%
+
+}
+
+.cart-icon {
+    display: inline;
+    margin-right: 40px;
+}

@@ -1,0 +1,13 @@
+<mat-card class="item-card sm-12 md-12">
+    <img  class="card-image" mat-card-image src="../../assets/{{item.itemName}}.jpg">
+    <mat-card-header>
+        <mat-card-title class="item-title">{{item.itemName}} </mat-card-title>
+        <mat-card-subtitle>{{item.itemCategory}} | Rs:{{item.itemPrice}}</mat-card-subtitle>
+        <img class="image" mat-card-image src="../../assets/rating.jpg"><span>{{item.itemRating}}</span>
+    </mat-card-header>
+    
+    
+    <mat-card-actions>
+        <mat-icon routerLink="item-cart/{{item.id}}" class="cart-icon" color="primary" matTooltip="add to cart">shopping_cart</mat-icon>
+    </mat-card-actions>
+</mat-card>

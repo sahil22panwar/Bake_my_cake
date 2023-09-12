@@ -1,0 +1,377 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "itemName": "Berries Summer Cupcakes",
+      "itemFlavour": "Chocolate",
+      "itemCategory": "cupcakes",
+      "itemPrice": 299,
+      "itemRating": 4,
+      "description": "This type of cake is made with butter as the main fat ingredient, resulting in a rich and tender texture. Butter cakes can be flavored with various extracts, such as vanilla or almond, and they are often frosted with buttercream or other creamy frostings."
+    },
+    {
+      "id": 2,
+      "itemName": "Brownies Different Flavor",
+      "itemFlavour": "vanila",
+      "itemCategory": "Brownies",
+      "itemPrice": 99,
+      "itemRating": 4,
+      "description": "This type of cake is made with butter as the main fat ingredient, resulting in a rich and tender texture. Butter cakes can be flavored with various extracts, such as vanilla or almond, and they are often frosted with buttercream or other creamy frostings."
+    },
+    {
+      "id": 3,
+      "itemName": "Butter Cookies",
+      "itemFlavour": "vanila",
+      "itemCategory": "Cookies",
+      "itemPrice": 199,
+      "itemRating": 3,
+      "description": "This type of cake is made with butter as the main fat ingredient, resulting in a rich and tender texture. Butter cakes can be flavored with various extracts, such as vanilla or almond, and they are often frosted with buttercream or other creamy frostings."
+    },
+    {
+      "id": 4,
+      "itemName": "Cherry Jelly Cheesecake",
+      "itemFlavour": "vanila",
+      "itemCategory": "Cakes",
+      "itemPrice": 1099,
+      "itemRating": 5,
+      "description": "This type of cake is made with butter as the main fat ingredient, resulting in a rich and tender texture. Butter cakes can be flavored with various extracts, such as vanilla or almond, and they are often frosted with buttercream or other creamy frostings."
+    },
+    {
+      "id": 5,
+      "itemName": "Chocolate Blueberries Cake",
+      "itemFlavour": "vanila",
+      "itemCategory": "Cakes",
+      "itemPrice": 1299,
+      "itemRating": 4,
+      "description": "This type of cake is made with butter as the main fat ingredient, resulting in a rich and tender texture. Butter cakes can be flavored with various extracts, such as vanilla or almond, and they are often frosted with buttercream or other creamy frostings."
+    },
+    {
+      "id": 6,
+      "itemName": "Chocolate Cupcake",
+      "itemFlavour": "vanila",
+      "itemCategory": "Cake",
+      "itemPrice": 1099,
+      "itemRating": 5,
+      "description": "This type of cake is made with butter as the main fat ingredient, resulting in a rich and tender texture. Butter cakes can be flavored with various extracts, such as vanilla or almond, and they are often frosted with buttercream or other creamy frostings."
+    },
+    {
+      "id": 7,
+      "itemName": "Chocolate Cookies",
+      "itemFlavour": "vanila",
+      "itemCategory": "Cookies",
+      "itemPrice": 199,
+      "itemRating": 4,
+      "description": "This type of cake is made with butter as the main fat ingredient, resulting in a rich and tender texture. Butter cakes can be flavored with various extracts, such as vanilla or almond, and they are often frosted with buttercream or other creamy frostings."
+    },
+    {
+      "id": 8,
+      "itemName": "Chocolate Cupcake",
+      "itemFlavour": "vanila",
+      "itemCategory": "Cupcake",
+      "itemPrice": 199,
+      "itemRating": 5,
+      "description": "This type of cake is made with butter as the main fat ingredient, resulting in a rich and tender texture. Butter cakes can be flavored with various extracts, such as vanilla or almond, and they are often frosted with buttercream or other creamy frostings."
+    },
+    {
+      "id": 9,
+      "itemName": "Chocolate Summer Berries",
+      "itemFlavour": "vanila",
+      "itemCategory": "Cakes",
+      "itemPrice": 1299,
+      "itemRating": 3,
+      "description": "This type of cake is made with butter as the main fat ingredient, resulting in a rich and tender texture. Butter cakes can be flavored with various extracts, such as vanilla or almond, and they are often frosted with buttercream or other creamy frostings."
+    },
+    {
+      "id": 10,
+      "itemName": "Classic Cheesecake",
+      "itemFlavour": "vanila",
+      "itemCategory": "Cake",
+      "itemPrice": 1099,
+      "itemRating": 4,
+      "description": "This type of cake is made with butter as the main fat ingredient, resulting in a rich and tender texture. Butter cakes can be flavored with various extracts, such as vanilla or almond, and they are often frosted with buttercream or other creamy frostings."
+    },
+    {
+      "id": 11,
+      "itemName": "Cookies Cream Cake",
+      "itemFlavour": "vanila",
+      "itemCategory": "Cakes",
+      "itemPrice": 999,
+      "itemRating": 5,
+      "description": "This type of cake is made with butter as the main fat ingredient, resulting in a rich and tender texture. Butter cakes can be flavored with various extracts, such as vanilla or almond, and they are often frosted with buttercream or other creamy frostings."
+    },
+    {
+      "id": 12,
+      "itemName": "Easter Cupcakes",
+      "itemFlavour": "vanila",
+      "itemCategory": "Cupcakes",
+      "itemPrice": 99,
+      "itemRating": 5,
+      "description": "This type of cake is made with butter as the main fat ingredient, resulting in a rich and tender texture. Butter cakes can be flavored with various extracts, such as vanilla or almond, and they are often frosted with buttercream or other creamy frostings."
+    },
+    {
+      "id": 13,
+      "itemName": "Fruit Cake",
+      "itemFlavour": "vanila",
+      "itemCategory": "Cakes",
+      "itemPrice": 1099,
+      "itemRating": 5,
+      "description": "This type of cake is made with butter as the main fat ingredient, resulting in a rich and tender texture. Butter cakes can be flavored with various extracts, such as vanilla or almond, and they are often frosted with buttercream or other creamy frostings."
+    },
+    {
+      "id": 14,
+      "itemName": "Isometric chocolate brownies",
+      "itemFlavour": "vanila",
+      "itemCategory": "brownies",
+      "itemPrice": 99,
+      "itemRating": 3,
+      "description": "This type of cake is made with butter as the main fat ingredient, resulting in a rich and tender texture. Butter cakes can be flavored with various extracts, such as vanilla or almond, and they are often frosted with buttercream or other creamy frostings."
+    },
+    {
+      "id": 15,
+      "itemName": "Monster Theme Cake",
+      "itemFlavour": "vanila",
+      "itemCategory": "Cakes",
+      "itemPrice": 1099,
+      "itemRating": 3,
+      "description": "This type of cake is made with butter as the main fat ingredient, resulting in a rich and tender texture. Butter cakes can be flavored with various extracts, such as vanilla or almond, and they are often frosted with buttercream or other creamy frostings."
+    },
+    {
+      "id": 16,
+      "itemName": "Muffin Devil Horns",
+      "itemFlavour": "vanila",
+      "itemCategory": "Muffins",
+      "itemPrice": 199,
+      "itemRating": 5,
+      "description": "This type of cake is made with butter as the main fat ingredient, resulting in a rich and tender texture. Butter cakes can be flavored with various extracts, such as vanilla or almond, and they are often frosted with buttercream or other creamy frostings."
+    },
+    {
+      "id": 17,
+      "itemName": "Muffin Ghost",
+      "itemFlavour": "vanila",
+      "itemCategory": "Muffins",
+      "itemPrice": 199,
+      "itemRating": 5,
+      "description": "This type of cake is made with butter as the main fat ingredient, resulting in a rich and tender texture. Butter cakes can be flavored with various extracts, such as vanilla or almond, and they are often frosted with buttercream or other creamy frostings."
+    },
+    {
+      "id": 18,
+      "itemName": "Pumpkin Spice Cupcakes",
+      "itemFlavour": "vanila",
+      "itemCategory": "Cakes",
+      "itemPrice": 99,
+      "itemRating": 3,
+      "description": "This type of cake is made with butter as the main fat ingredient, resulting in a rich and tender texture. Butter cakes can be flavored with various extracts, such as vanilla or almond, and they are often frosted with buttercream or other creamy frostings."
+    }
+  ],
+  "users": [
+    {
+      "firstName": "sahil",
+      "lastName": "panwar",
+      "password": "Sahil@1997",
+      "confirmPassword": "Sahil@1997",
+      "email": "sahil@p.com",
+      "phone": "7895919675",
+      "id": 1
+    },
+    {
+      "firstName": "sahill",
+      "lastName": "panwar",
+      "password": "Sahil@1997",
+      "confirmPassword": "Sahil@1997",
+      "email": "sahil@p.comq",
+      "phone": "7895919678",
+      "id": 2
+    },
+    {
+      "firstName": "bhanu",
+      "lastName": "mehta",
+      "password": "Bhanu@1997",
+      "confirmPassword": "Bhanu@1997",
+      "email": "bhanu@c.com",
+      "phone": "7895919675",
+      "id": 3
+    },
+    {
+      "firstName": "bhanu",
+      "lastName": "mehta",
+      "password": "Bhanu@1997",
+      "confirmPassword": "Bhanu@1997",
+      "email": "bhanu@c.com",
+      "phone": "7895919675",
+      "id": 4
+    },
+    {
+      "firstName": "bhanu",
+      "lastName": "mehta",
+      "password": "Bhanu@1997",
+      "confirmPassword": "Bhanu@1997",
+      "email": "bhanu@c.com",
+      "phone": "7895919675",
+      "id": 5
+    },
+    {
+      "firstName": "bhanu",
+      "lastName": "mehta",
+      "password": "Bhanu@1997",
+      "confirmPassword": "Bhanu@1997",
+      "email": "bhanu@c.com",
+      "phone": "7895919675",
+      "id": 6
+    }
+  ],
+  "cart": [
+    {
+      "dateOfdelivery": "2023-06-25",
+      "quantity": 2,
+      "customerName": "titus",
+      "customerEmail": "titus@chacho.com",
+      "customerPhone": "7895959685",
+      "customerAddress": "electronic city",
+      "itemName": "Brownies Different Flavor",
+      "price": 1.98,
+      "id": 7
+    },
+    {
+      "quantity": 2,
+      "dateOfdelivery": "2023-06-30",
+      "customerName": "shruti",
+      "customerEmail": "shruti@pandu.com",
+      "customerPhone": "8795954586",
+      "customerAddress": "rajpur road",
+      "itemName": "Cherry Jelly Cheesecake",
+      "price": 21.98,
+      "id": 8
+    },
+    {
+      "dateOfdelivery": "6/29/2023",
+      "quantity": 2,
+      "customerName": "marshall",
+      "customerEmail": "marshall@gmail.com",
+      "customerPhone": "7895919675",
+      "customerAddress": " EC road",
+      "itemName": "Berries Summer Cupcakes",
+      "price": 5.98,
+      "id": 9
+    },
+    {
+      "dateOfdelivery": "6/30/2023",
+      "quantity": 2,
+      "customerName": "dilber",
+      "customerEmail": "dilder@gmail.com",
+      "customerPhone": "8456752456",
+      "customerAddress": "nagawara",
+      "itemName": "Berries Summer Cupcakes",
+      "price": 5.98,
+      "itemPrice": 2.99,
+      "id": 10
+    },
+    {
+      "dateOfdelivery": "6/30/2023",
+      "quantity": 2,
+      "customerName": "sahil",
+      "customerEmail": "sahil22@gmail.com",
+      "customerPhone": "7895919575",
+      "customerAddress": "badrish colony",
+      "itemName": "Brownies Different Flavor",
+      "price": 1.98,
+      "itemPrice": 0.99,
+      "id": 11
+    },
+    {
+      "dateOfdelivery": "6/29/2023",
+      "quantity": 2,
+      "customerName": "bhanu mehta",
+      "customerEmail": "mehta@bhanu.com",
+      "customerPhone": "9634793375",
+      "customerAddress": "jogiwala, dehradun",
+      "itemName": "Cherry Jelly Cheesecake",
+      "price": 21.98,
+      "itemPrice": 10.99,
+      "id": 12
+    },
+    {
+      "dateOfdelivery": "6/29/2023",
+      "quantity": 3,
+      "customerName": "rohil bhandari",
+      "customerEmail": "rohil@gmail.com",
+      "customerPhone": "7895555788",
+      "customerAddress": "g-219,nehru colony,dehradun",
+      "itemName": "Chocolate Bonbons",
+      "price": 32.97,
+      "itemPrice": 10.99,
+      "id": 13
+    },
+    {
+      "dateOfdelivery": "6/29/2023",
+      "quantity": 2,
+      "customerName": "ananya thapli",
+      "customerEmail": "thapli@gmail.com",
+      "customerPhone": "7895869645",
+      "customerAddress": "purkul, dehradun",
+      "itemName": "Cookies Cream Cake",
+      "price": 19.98,
+      "itemPrice": 9.99,
+      "id": 14
+    },
+    {
+      "dateOfdelivery": "6/29/2023",
+      "quantity": 2,
+      "customerName": "shruti ",
+      "customerEmail": "shruti@gmail.com",
+      "customerPhone": "9686575515",
+      "customerAddress": "clement town",
+      "itemName": "Monster Theme Cake",
+      "price": 29.98,
+      "itemPrice": 14.99,
+      "id": 15
+    },
+    {
+      "customerEmail": "sahil@gmail.com",
+      "dateOfdelivery": "6/20/2023",
+      "quantity": 2,
+      "customerName": "sahil",
+      "customerPhone": "7895919675",
+      "customerAddress": "badrish colony",
+      "itemName": "Brownies Different Flavor",
+      "price": 1.98,
+      "itemPrice": 0.99,
+      "id": 16
+    },
+    {
+      "dateOfdelivery": "6/30/2023",
+      "quantity": 2,
+      "customerName": "sahil panwar",
+      "customerEmail": "sahil22panwar@gmail.com",
+      "customerPhone": "7895919675",
+      "customerAddress": "sahil niwas,badrish colony",
+      "itemName": "Butter Cookies",
+      "price": 3.98,
+      "itemPrice": 1.99,
+      "id": 17
+    },
+    {
+      "dateOfdelivery": "6/29/2023",
+      "quantity": 2,
+      "customerName": "sahil ",
+      "customerEmail": "sa@gmail.com",
+      "customerPhone": "7000000000",
+      "customerAddress": "adj",
+      "itemName": "Cherry Jelly Cheesecake",
+      "price": 21.98,
+      "itemPrice": 10.99,
+      "id": 18
+    },
+    {
+      "dateOfdelivery": "8/22/2023",
+      "quantity": 2,
+      "customerName": "sahil",
+      "customerEmail": "sahil22panar@gmail.com",
+      "customerPhone": "7895919675",
+      "customerAddress": "badrish colony",
+      "itemName": "Berries Summer Cupcakes",
+      "price": 598,
+      "itemPrice": 299,
+      "id": 19
+    }
+  ]
+}

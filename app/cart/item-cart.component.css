@@ -1,0 +1,45 @@
+
+#item-content {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#item-detail {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding : 0 10px;
+}
+
+#item-detail img {
+    width: 90%;
+}
+#item-detail p {
+    width: 90%;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+#item-request {
+    width: 35%;
+    display: flex;
+    padding-left: 10px;
+    flex-direction: column;
+}
+
+#per-item {
+    font-size: small;
+}
+.star{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+    font-size: large;
+}

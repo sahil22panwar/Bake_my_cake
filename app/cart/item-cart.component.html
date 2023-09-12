@@ -1,0 +1,82 @@
+<section id="item-content">
+    <div id="item-detail">
+        <h1>{{item?.itemName}}</h1>
+            <div class="star" style="margin-bottom: 20px;" >
+           <mat-icon *ngFor="let star of stars" color="accent">star</mat-icon>
+        </div>
+        <img src="../../assets/{{item?.itemName}}.jpg">
+        <p style="margin-top: 30px;">{{item?.description}}</p>
+    </div>
+
+    <form #form="ngForm"  id="item-request">
+        <h1>Book this item for:</h1>
+        <h2>{{item?.itemPrice}} Rs &nbsp;<span id="per-item"> PER PIECE</span></h2>
+        <h3>When do you want the cake delivered?</h3>
+<!--
+        <mat-form-field>
+            <mat-label>Select Date</mat-label> 
+            <input matInput [matDatepicker]="picker" [min]="tdate" required  placeholder="Enter date of delivery"    name="deliveryDate" #deliveryDate="ngModel" [(ngModel)]="order.dateOfdelivery">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+             <mat-error *ngIf="deliveryDate.errors?.['required']">date is mandatory</mat-error> 
+           
+        </mat-form-field> 
+    -->
+
+        <mat-form-field appearance="fill">
+            <mat-label>Quantity</mat-label>
+            <input matInput type="number"  min="1" required placeholder="Quantity required" (input)="calculateFinalPrice()" name="quantity" #quantity="ngModel" [(ngModel)] = "order.quantity"/>
+            <mat-error *ngIf="quantity.errors?.['required']">
+                Quantity is mandatory
+            </mat-error>
+        </mat-form-field>
+        
+        <h3>Enter your personal details</h3>
+        <mat-form-field appearance="fill">
+            <mat-label>Name</mat-label>
+            <input matInput type="text"required placeholder="Name" minlength="2" name="customerName" #customerName="ngModel" [(ngModel)] = "order.customerName">
+        <mat-error *ngIf="customerName.errors?.['required']">
+                Name is mandatory
+           </mat-error>
+           <mat-error *ngIf="customerName.errors?.['minlength']">
+                name cannot be less the 2 characters
+           </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Email</mat-label>
+            <input matInput type="email"required pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}"  placeholder="Email" name="email" #email="ngModel" [(ngModel)] = "order.customerEmail">
+            <mat-error *ngIf="email.errors?.['required']">
+                Email is mandatory
+           </mat-error>
+     
+           <mat-error *ngIf="email.errors?.['pattern']">
+             Enter Valid Email
+        </mat-error> 
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Phone no.</mat-label>
+            <input matInput type="phone"required pattern="^[7-9][0-9]{9}$" maxlength="10" placeholder="Phone" name="phone" #phone="ngModel" [(ngModel)] = "order.customerPhone">
+            <mat-error *ngIf="phone.errors?.['required']">
+                Phone Number is mandatory
+           </mat-error>
+           <mat-error *ngIf="phone.errors?.['pattern']">
+             Enter valid phone number containing 10 digits starting with 7/8/9
+        </mat-error>
+        </mat-form-field>
+
+        <br>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Address:</mat-label>
+            <textarea matInput placeholder="Delivery Address" required name="address" #address="ngModel" [(ngModel)]="order.customerAddress"></textarea>
+            <mat-error *ngIf="address.errors?.['required']">
+                Address is mandatory
+           </mat-error>
+        </mat-form-field>
+        <span>
+            Amount to be paid: {{ finalAmount }} Rupees
+        </span>
+        <br>
+        <button mat-flat-button color="primary" [disabled]="!form.valid"  (click)="makeRequest()">Make Request</button>
+   <form>

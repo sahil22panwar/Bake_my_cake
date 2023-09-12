@@ -1,0 +1,7 @@
+<mat-toolbar color="primary" class="header">
+  <span routerLink="/">Bake My Cake</span>
+  <nav class="icon">
+    <mat-icon routerLink="/">home</mat-icon>
+    <mat-icon style="margin-left: 40px;" *ngIf="auth.isLoggedIn" (click)="logout()">logout</mat-icon>
+  </nav>
+</mat-toolbar>
